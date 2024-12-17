@@ -18,11 +18,11 @@ public class RedisController {
     @GetMapping("/search")
     public ResponseEntity<?> searchKeyWord(@RequestParam String q) {
         redisService.searchKeyWord(q);
-        return null;
+        return ResponseEntity.ok().build();
     }
 
     @GetMapping("/ranking")
-    public ResponseEntity<Object> ranking() {
+    public ResponseEntity<?> ranking() {
         return ResponseEntity.ok().body(redisService.rankingKeyWord());
     }
 }

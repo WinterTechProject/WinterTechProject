@@ -25,7 +25,7 @@ public class RedisServiceImpl implements RedisService {
         redisTemplate.opsForHash().putIfAbsent(SEARCH_KEYWORD_META, q, KeyWord.of(q));
         redisTemplate.opsForZSet().addIfAbsent(SEARCH_KEYWORD_RANK, q, 0);
         redisTemplate.opsForZSet().incrementScore(SEARCH_KEYWORD_RANK, q, 1);
-        return null;
+        return q;
     }
 
     @Override
