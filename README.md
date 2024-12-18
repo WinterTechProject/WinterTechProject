@@ -18,7 +18,7 @@ ERD
 
 
 CRUD
- - ![/img/searchranking-api]()
+ - ![/img/searchranking-api.png]()
 
 ---
 
