@@ -18,7 +18,7 @@ ERD
 
 
 CRUD
- - ![./img/searchranking-api.png]()
+ - ![실시간 검색어 랭킹 api](./img/searchranking-api.png)
 
 ---
 
