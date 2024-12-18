@@ -18,7 +18,7 @@ ERD
 
 
 CRUD
- - ![API_IMG]() 각자 ERD 짜서 이미지 넣기기
+ - ![img/searchranking-api]()
 
 ---
 
